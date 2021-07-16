@@ -1,0 +1,163 @@
+.icon {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 30px;
+}
+.icon-spin{
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(360deg); 
+        }
+    }
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+}
+.icon-xl{
+    width: 60px;
+    height: 60px;
+}
+.icon-md{
+    width: 40px;
+    height: 40px;
+}
+.icon-sm{
+    width: 20px;
+    height: 20px;
+}
+.alram{
+    background: url('../svg/alarm.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.alram-fill{
+    background: url('../svg/alarm-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.plus-circle{
+    background: url('../svg/plus-circle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.plus-circle-fill{
+    background: url('../svg/plus-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.minus-circle{
+    background: url('../svg/dash-circle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.minus-circle-fill{
+    background: url('../svg/dash-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-left-circle{
+    background: url('../svg/arrow-left-circle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-left-circle:hover{
+    background: url('../svg/arrow-left-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-left-circle-fill{
+    background: url('../svg/arrow-left-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-right-circle{
+    background: url('../svg/arrow-right-circle.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-right-circle:hover{
+    background: url('../svg/arrow-right-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrow-right-circle-fill{
+    background: url('../svg/arrow-right-circle-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bars{
+    background: url('../svg/list.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.close{
+    background: url('../svg/x.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.whatsapp{
+    background: url('../svg/whatsapp.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.shopify{
+    background: url('../svg/shopify.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.shopify-fill{
+    background: url('../svg/shopify-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.shopify-fix{
+    background: url('../svg/shopify-fix.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wordpress{
+    background: url('../svg/wordpress.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wordpress-fill{
+    background: url('../svg/wordpress-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wordpress-fix{
+    background: url('../svg/wordpress-fix.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+

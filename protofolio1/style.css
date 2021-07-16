@@ -1,0 +1,322 @@
+/* theme colors  */
+*{
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    /* background-color: rgba(255, 255, 255, 0.548); */
+}
+
+
+.primary_color{
+    /* color: rgb(43, 133, 168); */
+    color: #333;
+}
+.secondary_color{
+    color: white;
+    color: #333;
+}
+.primary_bg{
+    background-color: rgb(43, 133, 168);
+    background-color: white;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.10) !important;
+}
+.t-d-n{
+text-decoration: none !important;
+border: none !important;
+}
+/* app starting */
+#app_box {
+    display: none;
+}
+
+#app_loading svg {
+    width: 60px;
+    height: 60px;
+}
+#app_loading{
+    position: absolute;
+    left: 48%;
+    
+    top: 40%;
+
+}
+#app_loading p{
+    color: rgb(43, 133, 168);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -1rem;
+}
+@media (max-width:576px) {
+    #app_loading{
+        left: 43%;
+    }
+}
+
+
+
+
+
+.brand_logo {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1.0;
+}
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: rgb(43, 133, 168);
+    /* border-bottom: 2px solid; */
+}
+.menu li {
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+}
+.menu li>a{
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.menu_icon {
+    display: none;
+}
+
+.login_btn{
+    border: 2px solid rgba(94, 92, 92, 0.753);
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.login_btn:hover{
+    cursor: pointer;
+    border-color: inherit;
+}
+.icon_links li{
+        font-size: 20px;
+        padding-top: -10px;
+    }
+    .icon_links .icons{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+.icon_links li:hover{
+    color: white;
+    border: none;
+}
+
+.front_title {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.dropdown{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: rgb(43, 133, 168);
+    top: 65px;
+    width: 200px;
+}
+.dropdown li{
+    padding: 10px;
+    display: block;
+    
+}
+.front_title .title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 40%;
+    text-align: left;
+    
+}
+.front_title h1{
+    font-size: 3rem;
+}
+.front_title .overlay {
+    background-color: rgba(255, 255, 255, 0.575);
+    /* background-color: rgb(43, 133, 168); */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.title_img{
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    top: 20%;
+    z-index: 0;
+}
+.top_menu {
+    padding: 1rem;
+    z-index: -1;
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.5mm;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+/* Accordian */
+.Accordian .a_b{
+    position: relative;
+    height: 60px;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.a_b h4{
+    position: absolute;
+    left: 30px;
+    font-size: 22px;
+}
+.a_b .icon_plus{
+    position: absolute;
+    right: 30px;
+    font-size: 22px;
+}
+.Accordian p{
+    padding: 8px;
+    display: none;
+}
+
+/* Services */
+.services .animate__animated:hover{
+    border: 1px solid rgb(43, 133, 168);
+    cursor: pointer;
+    
+}
+.services ul{
+    padding: 0px;
+}
+.services ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 6px;
+    
+}
+.services ul>li>a:hover{
+   border: none;
+    
+}
+
+/* footer */
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer .title{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+footer ul{
+    padding: 0px;
+}
+footer li{
+    font-size: 15px;
+    list-style: none;
+    
+}
+footer li>a{
+    
+    opacity: 0.7;
+    cursor: pointer;
+}
+footer li>a:hover{
+    opacity: 0.9;
+}
+footer .contect_icon>li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    opacity: 0.7;
+}
+
+/* for desktop */
+@media (min-width: 576px) {
+    .menu_icon{
+        display: none !important;
+    }
+    .menu{
+        display: block !important;
+
+    }
+
+}
+/* for mobile */
+@media (max-width: 576px) {
+    .top_menu{
+        left: 0;
+        right: 0;
+        top: 0;
+        width: auto;
+        height: inherit;
+    }
+    .front_title .title{
+        width: 80%;
+    }
+    .menu li {
+        display: block;
+    }
+    .title_img{
+        left: 10%;
+    }
+    .brand_logo {
+        font-size: 23px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .dropdown{
+        position: relative;
+        top: 5px;
+        background-color: rgb(58, 159, 199);
+        width: 100%;
+        margin: 0;
+    }
+    .menu {
+        height: 100%;
+        
+        display: none;
+    }
+.menu li{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.menu li>a{
+    width: 100%;
+}
+    .menu_icon {
+        display: block;
+    }
+    .icon_links li{
+        display: inline;
+    }
+   
+}

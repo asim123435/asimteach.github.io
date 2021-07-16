@@ -1,0 +1,425 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asim-Protofolio</title>
+    <link rel="stylesheet" href="../assets/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/crusal.css">
+    <link rel="stylesheet" href="../assets/icons.css">
+    <link rel="stylesheet" href="../assets/animate.css">
+    <script src="../assets/jquery.js"></script>
+    <script src="../assets/fontawesome.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app_loading">
+        <?xml version="1.0" encoding="utf-8"?>
+        <i class="loading_icon fas fa-circle-notch  fa-2x"></i>
+        <br>
+        <p class="icon-spin">loading...</p>
+    </div>
+
+
+    <div id="app_box">
+        <header class="row top_menu primary_bg animate__animated animate__slideInDown shadow-white-sm">
+            <div class="menu-sm col-md col-sm brand_logo">
+                <a href="#"><img class="logo" src="../svg/giveline.svg" alt=""></a>
+                <i style="float: right;" class="icon bars icon-md menu_icon" id="menu_icon"></i>
+            </div>
+            <div class="menu-xl col-md col-sm menu secondary_color" id="menu">
+                <ul>
+                    <li><a href="#app_box">Home</a></li>
+                    <li><a style="position: relative;" href="#review">Review</a>
+
+                    </li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#profile">Profile</a></li>
+
+                    <div style="float: right;" class="icon_links">
+                        <a href="#" class="login_btn secondary_color">Contect Us <i
+                                class="far fa-arrow-alt-circle-right"></i></a>
+                    </div>
+                </ul>
+
+            </div>
+        </header>
+
+        <section class="front_title ">
+            <img src="../img/hero-bg.jpg" alt="" srcset="">
+            <div class="overlay"></div>
+            <div class="title animate__animated animate__slideInLeft">
+                <h1 class="primary_color">Hi! I am Asim.</h1>
+                <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore perspiciatis
+                    veniam
+                    dolor molestias
+                    perferendis officiis deserunt incidunt mollitia accusantium illo, cumque possimus at velit eligendi!
+                    A
+                    veniam excepturi eligendi amet.</p>
+                <a href="#" class="btn primary_bg secondary_color btn-lg">Get Started <i
+                        class="far fa-arrow-alt-circle-right"></i></a>
+            </div>
+            <div class="title_img animate__animated animate__slideInRight">
+                <img src="../svg/logo.svg" alt="">
+            </div>
+        </section>
+
+
+        <!-- slideshow-container -->
+
+        <section class="crusal animate__animated animate__zoomIn" id="review">
+            <h2 class="title primary_color mt-5">FeedBack</h2>
+            <hr>
+            <div class="slideshow-container">
+
+                <div class="mySlides animate__animated">
+                    <center>
+                        <div class="primary_color fa-2x"><i class="far  fa-grin"></i> Thomas</div><br>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            asperiores, quis nisi facere rerum sed quae eligendi? Dolorum veniam beatae error quidem
+                            eaque
+                            assumenda nobis aut temporibus eos? Eos, nihil.</p>
+                    </center>
+                </div>
+                <div class="mySlides animate__animated">
+                    <center>
+                        <div class="primary_color fa-2x"><i class="far  fa-grin-alt"></i> Kati</div><br>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            asperiores, quis nisi facere rerum sed quae eligendi? Dolorum veniam beatae error quidem
+                            eaque
+                            assumenda nobis aut temporibus eos? Eos, nihil.</p>
+                    </center>
+                </div>
+                <div class="mySlides animate__animated">
+                    <center>
+                        <div class="primary_color fa-2x"><i class="far  fa-grin-squint"></i> William</div><br>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            asperiores, quis nisi facere rerum sed quae eligendi? Dolorum veniam beatae error quidem
+                            eaque
+                            assumenda nobis aut temporibus eos? Eos, nihil.</p>
+                    </center>
+                </div>
+                <div class="mySlides animate__animated">
+                    <center>
+                        <div class="primary_color fa-2x"><i class="far  fa-grin-hearts"></i> Mock</div><br>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            asperiores, quis nisi facere rerum sed quae eligendi? Dolorum veniam beatae error quidem
+                            eaque
+                            assumenda nobis aut temporibus eos? Eos, nihil.</p>
+                    </center>
+                </div>
+                <div class="mySlides animate__animated">
+                    <center>
+                        <div class="primary_color fa-2x"><i class="far  fa-grin-beam"></i> farry</div><br>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            asperiores, quis nisi facere rerum sed quae eligendi? Dolorum veniam beatae error quidem
+                            eaque
+                            assumenda nobis aut temporibus eos? Eos, nihil.</p>
+                    </center>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1,'animate__slideInRight')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,'animate__slideInLeft')">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"><i class="far fa-dot-circle"></i></span>
+                <span class="dot" onclick="currentSlide(2)"><i class="far fa-dot-circle"></i></span>
+                <span class="dot" onclick="currentSlide(3)"><i class="far fa-dot-circle"></i></span>
+                <span class="dot" onclick="currentSlide(4)"><i class="far fa-dot-circle"></i></span>
+                <span class="dot" onclick="currentSlide(5)"><i class="far fa-dot-circle"></i></span>
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <Section class="About" id="about">
+            <h2 class="title primary_color mt-5">About</h2>
+            <hr>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-12">
+                        <h4 class="primary_color">
+                            Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                        </h4>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna <br>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                            Duis aute irure dolor in reprehenderit in voluptate. <br>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur. <br>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit
+                            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="col-xl-6 col-sm-12">
+                        <img src="../img/wb1.jpg" width="100%" alt="img">
+                    </div>
+                </div>
+            </div>
+        </Section>
+
+        <!-- About End -->
+
+        <!-- serverices -->
+
+        <section class="services" id="services">
+
+            <h2 class="title primary_color mt-5">Servecies</h2>
+            <hr>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInLeft primary_bg">
+                        <h3 class="primary_color"><i class="icon shopify icon-md"></i> Shopify Store Development</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p><br>
+                        <ul class="secondary_color">
+                            <li><a class="t-d-n" href="#fiver"><i class="icon whatsapp icon-sm"></i></a></li>
+                            <li><a class="t-d-n" href="#upwork"><i class="icon whatsapp icon-sm"></i></a></li>
+                            <li><a class="t-d-n" id="whatsapp" href="#whatsapp"><i class="icon whatsapp icon-sm"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInRight primary_bg">
+                        <h3 class="primary_color"><i class="icon wordpress icon-md"></i> Wordpress Ecommerce Development
+                        </h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInLeft primary_bg">
+                        <h3 class="primary_color"><i class="icon shopify-fix icon-md"></i> Shopify Fixing</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInRight primary_bg">
+                        <h3 class="primary_color"><i class="icon wordpress-fix icon-md"></i> Wordpress Fixing</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInLeft primary_bg">
+                        <h3 class="primary_color"><i class="fab fa-shopify"></i> Shopify Custom Code</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInRight primary_bg">
+                        <h3 class="primary_color"><i class="fab fa-shopify"></i> Wordpress Custom Code</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInRight primary_bg">
+                        <h3 class="primary_color"><i class="fab fa-shopify"></i> PSD to HtML&CSS</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+                    <div class="col-xl-6-2 m-2 col-sm-12 p-4 animate__animated animate__slideInRight primary_bg">
+                        <h3 class="primary_color"><i class="fab fa-shopify"></i> Figma to HtML&CSS</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, fugiat
+                            aliquid dolores ducimus tempore aliquam cumque repellat, id libero quibusdam, molestias
+                            assumenda consequatur fuga minima. Provident numquam iure explicabo animi?</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- End services -->
+
+        <!-- Accordian -->
+
+        <section class="Accordian">
+            <h2 class="title primary_color mt-5">Accordian</h2>
+            <hr>
+            <div class="container mt-5">
+                <div class="a_m primary_bg a_b a_1">
+                    <h4 class="secondary_color">Our Rules</h4>
+                    <i class=" icon_plus icon plus-circle icon-sm"></i>
+                </div>
+                <p class="text-muted" id="a_1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    ratione
+                    nisi praesentium obcaecati asperiores, repellat earum animi at commodi tenetur optio deserunt dolor
+                    accusamus ipsum illo quia architecto enim itaque!</p>
+                <div class="a_m primary_bg a_b a_2">
+                    <h4 class="secondary_color">Our Rules</h4>
+                    <i class=" icon_plus icon plus-circle icon-sm"></i>
+                </div>
+                <p class="text-muted" id="a_2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    ratione
+                    nisi praesentium obcaecati asperiores, repellat earum animi at commodi tenetur optio deserunt dolor
+                    accusamus ipsum illo quia architecto enim itaque!</p>
+                <div class="a_m primary_bg a_b a_3">
+                    <h4 class="secondary_color">Our Rules</h4>
+                    <i class=" icon_plus icon plus-circle icon-sm"></i>
+                </div>
+                <p class="text-muted" id="a_3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    ratione
+                    nisi praesentium obcaecati asperiores, repellat earum animi at commodi tenetur optio deserunt dolor
+                    accusamus ipsum illo quia architecto enim itaque!</p>
+                <div class="a_m primary_bg a_b a_4">
+                    <h4 class="secondary_color">Our Rules</h4>
+                    <i class=" icon_plus icon plus-circle icon-sm"></i>
+                </div>
+                <p class="text-muted" id="a_4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    ratione
+                    nisi praesentium obcaecati asperiores, repellat earum animi at commodi tenetur optio deserunt dolor
+                    accusamus ipsum illo quia architecto enim itaque!</p>
+                <div class="a_m primary_bg a_b a_5">
+                    <h4 class="secondary_color">Our Rules</h4>
+                    <i class=" icon_plus icon plus-circle icon-sm"></i>
+                </div>
+                <p class="text-muted" id="a_5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    ratione
+                    nisi praesentium obcaecati asperiores, repellat earum animi at commodi tenetur optio deserunt dolor
+                    accusamus ipsum illo quia architecto enim itaque!</p>
+            </div>
+        </section>
+
+        <!-- End Accordian -->
+
+        <!-- footer -->
+
+        <footer class="mt-5 primary_bg secondary_color">
+
+            <div class="row h-50 pt-5">
+                <div class="col-xl-3 col-sm-12">
+                    <img src="../svg/giveline.svg" class="w-50" alt=""><br><br>
+                    <p class="pr-3 text-muted"> Giveline is a web Development organization that provide different
+                        Services of website development. </p>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <div class="title">
+                        Usefull links
+                    </div>
+                    <ul>
+                        <li><a href="#app_box">Home</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#profile">Profile</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <div class="title">
+                        Services
+                    </div>
+                    <ul>
+                        <li><a href="#">Wordpress</a></li>
+                        <li><a href="#">Shopify Fixing</a></li>
+                        <li><a href="#">Shopify</a></li>
+                        <li><a href="#">Shopify Fixing</a></li>
+                        <li><a href="#">Psd To Html</a></li>
+                        <li><a href="#">Figma To Html</a></li>
+                        <li><a href="#">Custom Coding</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <div class="title">
+                        Contect Us
+                    </div>
+                    <br>
+                    <p class="text-muted">
+                        For order discussion you can contect me Anytime.
+                    </p><br>
+                    <ul class="contect_icon">
+                        <li><a class="t-d-n" href="#fiver"><i class="icon whatsapp"></i></a></li>
+                        <li><a class="t-d-n" href="#upwork"><i class="icon whatsapp"></i></a></li>
+                        <li><a class="t-d-n" id="whatsapp" href="#whatsapp"><i class="icon whatsapp"></i></a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <hr>
+            <p class="text-center p-3">
+                CopyRight @ 2021
+            </p>
+
+        </footer>
+
+    </div>
+    <!-- End footer -->
+
+    <script>
+        
+
+        var primary_bg = document.getElementsByClassName("primary_bg");
+        var primary_color = document.getElementsByClassName("primary_color");
+        var secondary_color = document.getElementsByClassName("secondary_color");
+
+        function primary_bg_change(color) {
+            console.log(color);
+            for (let bg = 0; bg < primary_bg.length; bg++) {
+                const element = primary_bg[bg];
+                element.style.backgroundColor = color;
+            }
+            for (let bg = 0; bg < primary_color.length; bg++) {
+                const element = primary_color[bg];
+                element.style.color = color;
+            }
+        }
+        function primary_color_change(color) {
+            console.log(color);
+            for (let bg = 0; bg < primary_color.length; bg++) {
+                const element = primary_color[bg];
+                element.style.color = color;
+            }
+        }
+        function secondary_color_change(color) {
+            console.log(color);
+            for (let bg = 0; bg < secondary_color.length; bg++) {
+                const element = secondary_color[bg];
+                element.style.color = color;
+            }
+        }
+
+        function rand() {
+            var c1 = Math.floor((Math.random() * 255) + 150);
+            var c2 = Math.floor((Math.random() * 255) + 150);
+            var c3 = Math.floor((Math.random() * 255) + 150);
+            return "rgb(" + c1 + "," + c2 + "," + c3 + ")";
+        }
+        $('#pb').on("change", function () {
+            primary_bg_change($('#pb').val());
+        });
+        $('#pc').on("change", function () {
+            primary_color_change($('#pc').val());
+        });
+        $('#sc').on("change", function () {
+            secondary_color_change($('#sc').val());
+        });
+
+        // setInterval(() => {
+        //     var r=rand();
+        // primary_color_change(r);
+
+        // primary_bg_change(r);
+        // secondary_color_change(rand());
+        // }, 5000);
+        function link_open(link) {
+                window.open(link);
+        }
+
+    </script>
+    <script src="../assets/crusal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
